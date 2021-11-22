@@ -18,7 +18,7 @@ func main() {
 	if flag.NArg() > 0 {
 		dir = flag.Arg(0)
 	} else {
-		dir = "./../terraform-azurerm-app-gateway"
+		dir = "./"
 	}
 
 	module, _ := tfconfig.LoadModule(dir)
